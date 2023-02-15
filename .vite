@@ -1,0 +1,5 @@
+module.exports = {
+  public: 'public',
+  assets: ['public/images'],
+  files: ['src/**/*.{js,jsx}'],
+}
