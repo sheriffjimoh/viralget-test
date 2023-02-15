@@ -2,8 +2,8 @@
 
 1. Clone the project repo to your local machine,
 2. Run “composer install && npm install” inside the project directory, this install all the dependencies and packages for you.
-3. Create .env file and replace your database credentials. 
-4. Run “php artisan migrate refresh:seed “ this generate the database base on the schema and create a dummy datas.
+3. Create .env file(Run 'cp .env.example .env && php artisan key:generate' if the .env file does not exist,) and replace your database credentials. 
+4. Run “php artisan migrate:fresh --seed “ this generate the database base on the schema and create a dummy datas.
 5. Run “php artisan serve” and open another terminal to run “npm run dev”  now you can run the app.
 
 #App flow 
