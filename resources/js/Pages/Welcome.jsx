@@ -12,8 +12,8 @@ export default function Welcome({books,auth}) {
 
                 <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
                     <div className="flex justify-center pt-8 pb-5 sm:justify-start sm:pt-0">
-                        <span className='text-xl'>   All these books are available for sell</span>  
-                    </div>
+                        <span className='text-xl'>   All these books are available for sales</span>  
+                    </div>F
 
                     <CustomHeader  auth={auth}  />
                      
